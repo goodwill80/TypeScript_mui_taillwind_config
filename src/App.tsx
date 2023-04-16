@@ -14,6 +14,8 @@ import MUITextField from './Element_Components/MUITextField';
 
 // LayOut_Components
 import BoxComponent from './Layout_Components/BoxComponent';
+import StackComponent from './Layout_Components/StackComponent';
+import GridComponent from './Layout_Components/GridComponent';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
       {/* <MUITypography /> */}
       {/* <MUIButton /> */}
       {/* <MUITextField /> */}
-      <BoxComponent />
+      {/* <BoxComponent /> */}
+      {/* <StackComponent /> */}
+      <GridComponent />
     </div>
   );
 }
