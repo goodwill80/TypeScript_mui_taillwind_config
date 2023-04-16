@@ -21,6 +21,7 @@ import CardComponent from './Layout_Components/CardComponent';
 
 // Navigation Components
 import NavbarComponent from './Navigation_Components/NavbarComponent';
+import BottonNavComponent from './Navigation_Components/BottonNavComponent';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       {/* <PaperComponent /> */}
       {/* <CardComponent /> */}
       <NavbarComponent />
+      <BottonNavComponent />
     </div>
   );
 }
