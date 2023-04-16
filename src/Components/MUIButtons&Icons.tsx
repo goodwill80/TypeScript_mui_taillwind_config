@@ -27,6 +27,7 @@ function MUIButton() {
   };
   return (
     <Stack>
+      {/* Variant */}
       <Stack spacing={2} direction="row">
         <Button variant="text" href="https://google.com">
           Text
@@ -36,7 +37,7 @@ function MUIButton() {
         </Button>
         <Button variant="outlined">Outline</Button>
       </Stack>
-
+      {/* Color */}
       <Stack spacing={2} direction={'row'} className="space-x-2 pt-4">
         <Button variant="contained" color="primary">
           Primary
@@ -57,7 +58,7 @@ function MUIButton() {
           Error
         </Button>
       </Stack>
-
+      {/* Size */}
       <Stack display="block" spacing={2} direction="row" className="pt-4">
         <Button variant="contained" color="primary" size={'small'}>
           Small
@@ -70,6 +71,7 @@ function MUIButton() {
         </Button>
       </Stack>
 
+      {/* Button Icon */}
       <Stack display="row" spacing={2}>
         <Button
           variant="contained"
