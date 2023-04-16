@@ -7,9 +7,13 @@ import './App.css';
 // Refer to tailwind.config.js for configurations
 // Refer to index.tsx for configuration mui wrapper
 
-import MUITypography from './Components/MUITypography';
-import MUIButton from './Components/MUIButtons&Icons';
-import MUITextField from './Components/MUITextField';
+// Elements_Components
+import MUITypography from './Element_Components/MUITypography';
+import MUIButton from './Element_Components/MUIButtons&Icons';
+import MUITextField from './Element_Components/MUITextField';
+
+// LayOut_Components
+import BoxComponent from './Layout_Components/BoxComponent';
 
 function App() {
   return (
@@ -20,7 +24,8 @@ function App() {
       {/* UNCOMMENT FOR SHOW */}
       {/* <MUITypography /> */}
       {/* <MUIButton /> */}
-      <MUITextField />
+      {/* <MUITextField /> */}
+      <BoxComponent />
     </div>
   );
 }
