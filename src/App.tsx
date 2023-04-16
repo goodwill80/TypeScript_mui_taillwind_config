@@ -8,20 +8,23 @@ import './App.css';
 // Refer to index.tsx for configuration mui wrapper
 
 // Elements_Components
-import MUITypography from './Element_Components/MUITypography';
-import MUIButton from './Element_Components/MUIButtons&Icons';
-import MUITextField from './Element_Components/MUITextField';
+// import MUITypography from './Element_Components/MUITypography';
+// import MUIButton from './Element_Components/MUIButtons&Icons';
+// import MUITextField from './Element_Components/MUITextField';
 
 // LayOut_Components
-import BoxComponent from './Layout_Components/BoxComponent';
-import StackComponent from './Layout_Components/StackComponent';
-import GridComponent from './Layout_Components/GridComponent';
-import PaperComponent from './Layout_Components/PaperComponent';
-import CardComponent from './Layout_Components/CardComponent';
+// import BoxComponent from './Layout_Components/BoxComponent';
+// import StackComponent from './Layout_Components/StackComponent';
+// import GridComponent from './Layout_Components/GridComponent';
+// import PaperComponent from './Layout_Components/PaperComponent';
+// import CardComponent from './Layout_Components/CardComponent';
 
 // Navigation Components
-import NavbarComponent from './Navigation_Components/NavbarComponent';
-import BottonNavComponent from './Navigation_Components/BottonNavComponent';
+// import NavbarComponent from './Navigation_Components/NavbarComponent';
+// import BottonNavComponent from './Navigation_Components/BottonNavComponent';
+
+// Responsive
+import Responsiveness from './Responsive/Responsiveness';
 
 function App() {
   return (
@@ -35,8 +38,9 @@ function App() {
       {/* <GridComponent /> */}
       {/* <PaperComponent /> */}
       {/* <CardComponent /> */}
-      <NavbarComponent />
-      <BottonNavComponent />
+      {/* <NavbarComponent />
+      <BottonNavComponent /> */}
+      <Responsiveness />
     </div>
   );
 }

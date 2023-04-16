@@ -17,6 +17,7 @@ function BottonNavComponent() {
       sx={{ width: '100%', position: 'absolute', bottom: 0 }}
       value={value}
       onChange={handleChange}
+      showLabels
     >
       <BottomNavigationAction
         label="Recents"
