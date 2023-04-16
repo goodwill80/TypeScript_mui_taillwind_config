@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// npm install @mui/material @emotion/react @emotion/styled
+// npm install @mui/icons-material
+// npm install -D tailwindcss
+// npx tailwindcss init -p
+// Refer to tailwind.config.js for configurations
+// Refer to index.tsx for configuration mui wrapper
+
+import MUITypography from './Components/MUITypography';
+import MUIButton from './Components/MUIButtons&Icons';
+import MUITextField from './Components/MUITextField';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col items-center h-screen">
+      <h1 className="text-2xl font-bold">
+        Style Material UI with Tailwind CSS & Typescript
+      </h1>
+      {/* UNCOMMENT FOR SHOW */}
+      {/* <MUITypography /> */}
+      {/* <MUIButton /> */}
+      <MUITextField />
     </div>
   );
 }
