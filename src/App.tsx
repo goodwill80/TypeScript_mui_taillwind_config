@@ -16,6 +16,8 @@ import MUITextField from './Element_Components/MUITextField';
 import BoxComponent from './Layout_Components/BoxComponent';
 import StackComponent from './Layout_Components/StackComponent';
 import GridComponent from './Layout_Components/GridComponent';
+import PaperComponent from './Layout_Components/PaperComponent';
+import CardComponent from './Layout_Components/CardComponent';
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
       {/* <MUITextField /> */}
       {/* <BoxComponent /> */}
       {/* <StackComponent /> */}
-      <GridComponent />
+      {/* <GridComponent /> */}
+      {/* <PaperComponent /> */}
+      <CardComponent />
     </div>
   );
 }
