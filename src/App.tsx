@@ -19,12 +19,12 @@ import GridComponent from './Layout_Components/GridComponent';
 import PaperComponent from './Layout_Components/PaperComponent';
 import CardComponent from './Layout_Components/CardComponent';
 
+// Navigation Components
+import NavbarComponent from './Navigation_Components/NavbarComponent';
+
 function App() {
   return (
     <div className="flex flex-col items-center h-screen">
-      <h1 className="text-2xl font-bold">
-        Style Material UI with Tailwind CSS & Typescript
-      </h1>
       {/* UNCOMMENT FOR SHOW */}
       {/* <MUITypography /> */}
       {/* <MUIButton /> */}
@@ -33,7 +33,8 @@ function App() {
       {/* <StackComponent /> */}
       {/* <GridComponent /> */}
       {/* <PaperComponent /> */}
-      <CardComponent />
+      {/* <CardComponent /> */}
+      <NavbarComponent />
     </div>
   );
 }
